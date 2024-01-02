@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Glitch&display=swap');
+
+*{
+    margin: 0; 
+    padding: 0;
+}
+header{
+    justify-content: space-between;
+    align-items: center;
+    color: whitesmoke;
+    font-family: Rubik Glitch, sans-serif;
+    background-color: black;
+}
+main{
+    background-color: black;
+}
+.armours{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    /* margin: 10px; */
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 20px;
+}
+nav ul{
+    height: 10vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 30%;
+
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li a{
+    color: whitesmoke;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    color: #184ca1e1;
+}
+.search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    min-height: calc(100vh - 18px - 16vh);
+}
+footer{
+    background-color: black;
+    height: 8vh;
+    color: whitesmoke;
+    font-family: Rubik Glitch, sans-serif;
+    background-size: 100%;
+}
+
+
